@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Curriculum</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cristian_sedano">Cristian Sedano</string>
+    <string name="chris_sedano_arenas_gmail_com">chris.sedano.arenas@gmail.com</string>
+    <string name="_07548142387">07548142387</string>
+    <string name="logo_description">Logo Description</string>
+</resources>
