@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sum_array">
+        <item>Hello, my name is Cristian Sedano. I was born in Spain, and I am an app developer.</item>
+        <item>I was working as an electrician in Spain when the crisis begun. That is why I decided to study English and I moved to London. Once I got here I looked for a job in hospitality which helped me pay for my studies.</item>
+        <item>Currently I’m working for Pret a Manger, but since a year and a half I’m also studying app development. I always liked computers and for that reason I decided to find a way of making a living out of my passion. For that I started studying to be an App developer, mainly Android Studio and Swift.
+            I have several apps in my GitHub account, so if you are interested you can have a look and get a practical example of what I can do as a programmer.</item>
+        <item>Thank you for your time, I am looking forward to hear from you and meet you in an interview where we can talk more in detail about the possibility of me working for your company.
+        Kind regards,</item>
+
+    </string-array>
+
+    <string-array name="edu_array">
+        <item>2018 - Udemy, Learn to program using design patterns for Android 30 hours</item>
+        <item>2017 – Udemy, Android programming from zero 70 hours</item>
+        <item>2017 – Udemy, Learn to program in java 5 hours</item>
+        <item>2016 – Udemy, Create your android apps 20 hours</item>
+        <item>2016 – Udemy, Introduction to android app development 22 hours</item>
+    </string-array>
+
+    <string-array name="ref_array">
+        <item>https://github.com/detryo</item>
+        <item>https://www.linkedin.com/in/cristian-sedano-9b5a47141/</item>
+    </string-array>
+
+    <string-array name="skills_array">
+        <item>Java</item>
+        <item>Realm</item>
+        <item>SQLITE</item>
+        <item>Android SDK</item>
+        <item>Android Libraries</item>
+        <item>Version Control Git</item>
+        <item>API implementation</item>
+        <item>Splash Screen</item>
+        <item>Shared Preference</item>
+    </string-array>
+
+
+</resources>

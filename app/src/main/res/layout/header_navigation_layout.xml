@@ -10,7 +10,7 @@
         android:layout_marginLeft="70dp"
         android:layout_marginTop="135dp"
         android:text="@string/chris_sedano_arenas_gmail_com"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_marginLeft="70dp"
         android:layout_marginTop="160dp"
         android:text="@string/_07548142387"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_marginLeft="70dp"
         android:layout_marginTop="110dp"
         android:text="@string/cristian_sedano"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
 </FrameLayout>

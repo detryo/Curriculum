@@ -1,5 +1,7 @@
 package cristian_sedano.curriculum;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -9,6 +11,9 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -21,12 +26,96 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
 
         setToolbar();
+        setGitHub();
+        setLinkedin();
+        setSumarryExplication();
+        setTextViewEduExplication();
+        setTextViewRefExplication();
+        setTextViewSkillsExplication();
 
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navigationView = (NavigationView) findViewById(R.id.nav);
         setFragmentByDefault();
 
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    private void setSumarryExplication(){
+
+        TextView textView = (TextView) findViewById(R.id.sum_explication);
+
+        String[] stringArray = getResources().getStringArray(R.array.sum_array);
+        String textOut = "";
+
+        for(int i = 0; i < stringArray.length; i++){
+            textOut += stringArray[i] + "\n";
+        }
+        textView.setText(textOut);
+    }
+
+    private void setTextViewEduExplication(){
+
+        TextView textView = (TextView) findViewById(R.id.edu_explication);
+
+        String[] stringArray = getResources().getStringArray(R.array.edu_array);
+        String textOut = "";
+
+        for(int i = 0; i < stringArray.length; i++){
+            textOut += stringArray[i] + "\n";
+        }
+        textView.setText(textOut);
+    }
+
+    private void setTextViewRefExplication(){
+
+        TextView textView = (TextView) findViewById(R.id.ref_explication);
+
+        String[] stringArray = getResources().getStringArray(R.array.ref_array);
+        String refOut = "";
+
+        for (int i = 0; i < stringArray.length; i++){
+            refOut += stringArray[i] + "\n";
+        }
+        textView.setText(refOut);
+    }
+
+    private void setTextViewSkillsExplication(){
+
+        TextView skillsexpl = (TextView) findViewById(R.id.skills_explication);
+
+        String[] stringArray = getResources().getStringArray(R.array.skills_array);
+        String skillsOut = "";
+
+        for (int i = 0; i < stringArray.length; i++){
+            skillsOut += stringArray[i] + "\n";
+        }
+        skillsexpl.setText(skillsOut);
+    }
+
+    private void setGitHub(){
+        Button buttonGit = (Button) findViewById(R.id.github);
+
+        buttonGit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("https://github.com/detryo");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
+    }
+
+    private void setLinkedin(){
+        Button buttonLinkedin = (Button) findViewById(R.id.linkedin);
+
+        buttonLinkedin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("https://www.linkedin.com/in/cristian-sedano-9b5a47141/");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setToolbar(){
@@ -83,4 +172,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         return true;
     }
+
+
 }

@@ -7,4 +7,14 @@
     <string name="chris_sedano_arenas_gmail_com">chris.sedano.arenas@gmail.com</string>
     <string name="_07548142387">07548142387</string>
     <string name="logo_description">Logo Description</string>
+    <string name="textView_summary">SUMMARY</string>
+    <string name="textView_experience">EXPERIENCE</string>
+    <string name="textView_education">EDUCATION</string>
+    <string name="textView_interests">INTERESTS</string>
+    <string name="textView_reference">REFERENCE</string>
+    <string name="textView_exp_expli">2000 – Actuality – currently jobs</string>
+    <string name="textView_int_explic">Travelling, cinema and music</string>
+    <string name="textView_skills">SKILLS</string>
+    <string name="menu_mail">chris.sedano.arenas@gmail.com</string>
+    <string name="menu_phone">07548122387</string>
 </resources>
